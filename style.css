@@ -4,6 +4,7 @@
     border-top: 3px solid;
     border-left: 3px solid;
     border-right: 3px solid;
+    margin-top: 5%;
    /* outline: 3px 0;
     */
 }
@@ -103,13 +104,31 @@
     border-left: 3px solid;
     border-right: 3px solid;
     border-bottom: 3px solid;
+    z-index: 99999;
 }
 .table1 > tbody > tr > td {
     border: 1px solid;
     text-align: left;
     padding: 8px;
+    height: 30px;
 }
 .top_set_bottom {
     justify-content: flex-start;
     display: flex;
 }
+.positionset {
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+}
+.stampos {
+    position: absolute;
+    bottom: 0;
+    right: 30vw;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+.stamp {
+    width: 214px;
+    transform: rotate(18deg);
+} 
