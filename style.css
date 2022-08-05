@@ -1,0 +1,115 @@
+.table {
+    border-spacing: 0;
+    width: 1042px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+   /* outline: 3px 0;
+    */
+}
+.table2 {
+    border-spacing: 0;
+    width: 1042px;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+.top_set > td {
+    padding: 9px 9px 0 9px;
+}
+.table > tbody >tr {
+    justify-content: flex-start;
+    display: flex;
+}
+.container{
+}
+#breed {
+    height: 105px;
+    flex: 8;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 30px;
+    font-size: 19px;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    flex: 1.2;
+}
+.qrcodepos {
+    flex: 2;
+    position: relative;
+    padding: 0;
+}
+.qr {
+    width: 180px;
+    position: absolute;
+    margin-left: -88px;
+    margin-top: 0;
+    padding: 0;
+}
+.thai {
+    text-align: left;
+   /* letter-spacing: 4px;
+    */
+    color: white;
+   /* font-size: ;
+    */
+}
+.foreign {
+    text-align: left;
+    letter-spacing: 2px;
+    color: white;
+}
+.edt_box {
+    border-bottom-style: dotted;
+}
+.table-header-qr {
+    background-color: #4a7766;
+}
+.table-editable {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.glyphicon {
+    font-size: 20px;
+}
+.table-remove {
+    color: #700;
+    cursor: pointer;
+}
+.table-remove:hover {
+    color: #f00;
+}
+.table-add {
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+}
+.table-add:hover {
+    color: #fff;
+}
+.bottom_bar > th {
+    border: 1px solid #dddddd;
+    width: 12.5%;
+}
+.table1 {
+    border-collapse: collapse;
+    width: 1042px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+}
+.table1 > tbody > tr > td {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+.top_set_bottom {
+    justify-content: flex-start;
+    display: flex;
+}
